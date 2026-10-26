@@ -1,0 +1,79 @@
+/* b. Set a background image for the whole page */
+body {
+    /* Replace 'background.jpg' with any image URL or local image filename */
+    background-image: url('https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=1200');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Container card */
+.main-card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+}
+
+/* a. Define different fonts and styles for each selector */
+
+/* ID Selector */
+#main-title {
+    font-family: 'Georgia', serif;
+    color: #1b365d;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+/* Class Selector 1: Serif font style */
+.font-serif {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #4a5568;
+    font-size: 15px;
+}
+
+/* Class Selector 2: Sans-serif font style */
+.font-sans {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #2d3748;
+    font-size: 15px;
+}
+
+/* Class Selector 3: Monospace font style */
+.font-mono {
+    font-family: 'Courier New', Courier, monospace;
+    color: #c53030;
+    font-size: 14px;
+}
+
+/* b. Set a background image for a single element on the page */
+.element-bg {
+    /* Replace with any small background texture or pattern image */
+    background-image: url('https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=400');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+}
+
+.element-bg p {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}

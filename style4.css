@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background: #ffffff;
+    padding: 35px 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    text-align: center;
+}
+
+h2 {
+    color: #2d3748;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #718096;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.portal-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.portal-links li {
+    margin-bottom: 12px;
+}
+
+.portal-links a {
+    display: block;
+    background-color: #f7fafc;
+    color: #4a5568;
+    padding: 12px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+}
+
+.portal-links a:hover {
+    background-color: #667eea;
+    color: #ffffff;
+    border-color: #667eea;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}

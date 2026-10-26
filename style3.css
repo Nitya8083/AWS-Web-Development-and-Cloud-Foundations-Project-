@@ -1,0 +1,61 @@
+/* General Page Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 40px;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styling */
+h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 25px;
+}
+
+/* Table Styling */
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.education-table th, 
+.education-table td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Table Header Styling */
+.education-table th {
+    background-color: #2c3e50;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+/* Table Body Styling */
+.education-table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.education-table tbody tr:hover {
+    background-color: #f1f9f6;
+}
+
+.education-table td {
+    color: #555555;
+    font-size: 15px;
+}
